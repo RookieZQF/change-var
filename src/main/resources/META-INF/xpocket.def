@@ -1,0 +1,10 @@
+plugin-name=change-var
+plugin-namespace=change-var
+plugin-version=1.0.0-RELEASE
+plugin-type=c
+plugin-dependency=
+jdk-version=8
+jvm=hotspot
+os=linux
+plugin-command-package=com.perfma.xlab.change.var
+main-implementation=com.perfma.xlab.change.var.ChangeVarPlugin
