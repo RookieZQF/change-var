@@ -13,11 +13,11 @@ use change-var@CHANGE-VAR
 进入change-var插件域
 然后使用
 ``` shell
-attach pid
+attach pid     //attach进程,可以是c/c++程序
+read PrintGCDetai 1 //读取导出符号值,读取长度为1
+write PrintGCDetails 12 1  //修改导出符号值为12,修改长度为1
 read PrintGCDetai 1
-write PrintGCDetails 12 1
-read PrintGCDetai 1
-detach
+detach          //解除attach
 ```
 命令详情可以使用help
 ``` shell
